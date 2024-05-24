@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Clone with Slider and Clock</title>
+    <link rel="stylesheet" href="word.css">
+</head>
+<body>
+    <div class="container">
+        <div class="toolbar">
+            <input type="range" id="fontSizeSlider" min="10" max="72" value="16">
+            <span id="fontSizeValue">16px</span>
+            <button id="boldBtn">Bold</button>
+            <button id="italicBtn">Italic</button>
+            <button id="underlineBtn">Underline</button>
+            <div class="clock" id="clock"></div>
+        </div>
+        <div id="textEditor" contenteditable="true" class="text-editor"></div>
+    </div>
+    <script src="word.js"></script>
+</body>
+</html>
